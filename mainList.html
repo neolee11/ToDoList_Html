@@ -1,14 +1,61 @@
-<!DOCTYPE HTML>
+<!doctype html>
 
 <html>
-<header>
+<head>
+	<title>To Do List - Html</title>
+	<link rel="stylesheet" href="style.css"/>
 
-</header>
+</head>
+
 <body>
+
+<div class="container">
+	<header><h1 class="">To Do List - HTML</h1></header>
+
+	<div class="search">
+		<span>Search</span>
+		<input type="text" name="searchBox" id="searchBox"/>
+		<select name="searchOptions" id="searchOptions">
+			<option label="All" value="All"></option>
+			<option label="Task Title" value="Task Title"></option>
+		</select>
+	</div>
+
+	<div class="main">
+		<table>
+			<caption>Task List</caption>
+			<thead>
+			<th>Sel</th>
+			<th>Task</th>
+			<th>Action</th>
+			</thead>
+			<tfoot>
+			<tr>
+				<td>Task Count: 3</td>
+			</tr>
+			</tfoot>
+			<tbody>
+			<tr>
+				<td>
+					<input type="checkbox" name="" id="chbox1"/>
+				</td>
+				<td>
+					Do Something
+				</td>
+				<td>
+					<button></button>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+	<footer>
+		<h5>To Do List</h5>
+
+		<div>Copyright:ToDoSoft</div>
+	</footer>
+</div>
 
 </body>
 
-<footer>
-
-</footer>
 </html>

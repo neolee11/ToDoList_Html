@@ -1,0 +1,33 @@
+<!doctype>
+<head>/<title>/<body>/<footer>
+<meta>: defines meta information charset, content, http-equiv, name
+<link>/<script>/<style>
+<nav>: defines navigation links
+<a>/<base>
+
+
+<div>/<span>/<h1> to <h6>/<p>
+<br>/<hr>
+
+<input>: text, password, submit, radio, checkbox, button, color,
+         date, datetime, datetime-local, email, month, number,
+         range, search, tel, time, url, week
+<label>/<textarea>/<select>/<button>/<command>/<datalist>
+<option>/<optgroup>
+<ul>/<ol>/<li>
+
+<form>
+<fieldset>: The <fieldset> tag is used to group related elements in a form.
+<legend>: The <legend> tag defines a caption for the <fieldset> element
+<table>/<thead>/<th>/<caption>/<tbody>/<tr>/<td>/<tfoot>/<col>/<colgroup>
+
+<img>/<audio>/<video>/<canvas>/<embed>/<iframe>/<object>/<param>
+<source>: defines media resources, media, src, type
+<map> : The <map> tag is used to define a client-side image-map.
+<area>: defines an area inside an image map
+
+<address>
+<figure>
+<time>: The <time> tag defines a human-readable date/time.
+<var>: defines a variable
+<ins>/<del>/<b>/<em>/<i>/<pre>/<small>/<strong>
